@@ -94,6 +94,7 @@ describe('Game', () => {
       }
       expect(game.hasWinner()).toBe(true)
     })
+    
 
     it('Wins if up-right diagonal is filled', async () => {
       for (let r = 0; r < game.board.length; r++) {
